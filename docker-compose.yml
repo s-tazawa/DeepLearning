@@ -1,0 +1,17 @@
+
+
+version: '3'
+services:
+    deep_learning:
+        restart: always
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: deep_learning
+        # image: tensorflow/tensorflow:latest-gpu-py3-jupyter
+        volumes:
+            - ./:/mnt
+        tty: true
+        command: jupyter notebook --port 8889 --ip=0.0.0.0 --allow-root  
+        ports:
+            - 8889:8889
