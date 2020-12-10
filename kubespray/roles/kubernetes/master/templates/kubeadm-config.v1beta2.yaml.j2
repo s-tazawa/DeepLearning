@@ -162,16 +162,17 @@ apiServer:
     runtime-config: {{ kube_api_runtime_config | join(',') }}
 {% endif %}
     allow-privileged: "true"
+{% if kubernetes_audit or kubernetes_audit_webhook %}
+    audit-policy-file: {{ audit_policy_file }}
+{% endif %}
 {% if kubernetes_audit %}
     audit-log-path: "{{ audit_log_path }}"
     audit-log-maxage: "{{ audit_log_maxage }}"
     audit-log-maxbackup: "{{ audit_log_maxbackups }}"
     audit-log-maxsize: "{{ audit_log_maxsize }}"
-    audit-policy-file: {{ audit_policy_file }}
 {% endif %}
 {% if kubernetes_audit_webhook %}
     audit-webhook-config-file: {{ audit_webhook_config_file }}
-    audit-policy-file: {{ audit_policy_file }}
     audit-webhook-mode: {{ audit_webhook_mode }}
     audit-webhook-batch-max-size: "{{ audit_webhook_batch_max_size }}"
     audit-webhook-batch-max-wait: "{{ audit_webhook_batch_max_wait }}"
@@ -261,6 +262,8 @@ controllerManager:
     profiling: "{{ kube_profiling }}"
     terminated-pod-gc-threshold: "{{ kube_controller_terminated_pod_gc_threshold }}"
     bind-address: {{ kube_controller_manager_bind_address }}
+    leader-elect-lease-duration: {{ kube_controller_manager_leader_elect_lease_duration }}
+    leader-elect-renew-deadline: {{ kube_controller_manager_leader_elect_renew_deadline }}
 {% if kube_feature_gates %}
     feature-gates: {{ kube_feature_gates|join(',') }}
 {% endif %}
@@ -306,6 +309,8 @@ controllerManager:
 scheduler:
   extraArgs:
     bind-address: {{ kube_scheduler_bind_address }}
+    leader-elect-lease-duration: {{ kube_scheduler_leader_elect_lease_duration }}
+    leader-elect-renew-deadline: {{ kube_scheduler_leader_elect_renew_deadline }}
 {% if kube_feature_gates %}
     feature-gates: {{ kube_feature_gates|join(',') }}
 {% endif %}
@@ -370,6 +375,12 @@ nodePortAddresses: {{ kube_proxy_nodeport_addresses }}
 oomScoreAdj: {{ kube_proxy_oom_score_adj }}
 portRange: {{ kube_proxy_port_range }}
 udpIdleTimeout: {{ kube_proxy_udp_idle_timeout }}
+{% if kube_feature_gates %}
+featureGates:
+{% for feature in kube_feature_gates %}
+  {{ feature|replace("=", ": ") }}
+{% endfor %}
+{% endif %}
 {# DNS settings for kubelet #}
 {% if enable_nodelocaldns %}
 {% set kubelet_cluster_dns = [nodelocaldns_ip] %}

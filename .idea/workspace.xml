@@ -2,7 +2,174 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="761b7edb-f14c-4e30-ae9b-48e42735018f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/kubespray/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/.github/ISSUE_TEMPLATE/support.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/.github/ISSUE_TEMPLATE/support.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/.gitlab-ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/.gitlab-ci/lint.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/.gitlab-ci/lint.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/.gitlab-ci/packet.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/.gitlab-ci/packet.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/.gitlab-ci/shellcheck.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/.gitlab-ci/shellcheck.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/.gitlab-ci/terraform.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/.gitlab-ci/terraform.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/OWNERS_ALIASES" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/OWNERS_ALIASES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/Vagrantfile" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/Vagrantfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/contrib/terraform/aws/modules/elb/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/contrib/terraform/aws/modules/elb/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/contrib/terraform/openstack/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/contrib/terraform/openstack/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/contrib/terraform/openstack/kubespray.tf" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/contrib/terraform/openstack/kubespray.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/contrib/terraform/openstack/modules/ips/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/contrib/terraform/openstack/modules/ips/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/contrib/terraform/openstack/modules/ips/outputs.tf" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/contrib/terraform/openstack/modules/ips/outputs.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/contrib/terraform/openstack/modules/ips/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/contrib/terraform/openstack/modules/ips/variables.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/contrib/terraform/openstack/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/contrib/terraform/openstack/variables.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/docs/calico.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/docs/calico.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/docs/cri-o.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/docs/cri-o.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/docs/dns-stack.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/docs/dns-stack.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/docs/getting-started.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/docs/getting-started.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/docs/nodes.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/docs/nodes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/docs/offline-environment.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/docs/offline-environment.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/docs/packet.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/docs/packet.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/docs/proxy.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/docs/proxy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/docs/vars.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/docs/vars.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/inventory/sample/group_vars/all/all.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/inventory/sample/group_vars/all/all.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/inventory/sample/group_vars/all/aws.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/inventory/sample/group_vars/all/aws.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/inventory/sample/group_vars/all/azure.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/inventory/sample/group_vars/all/azure.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/inventory/sample/group_vars/all/openstack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/inventory/sample/group_vars/all/openstack.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/inventory/sample/group_vars/etcd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/inventory/sample/group_vars/etcd.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/inventory/sample/group_vars/k8s-cluster/addons.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/inventory/sample/group_vars/k8s-cluster/addons.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/inventory/sample/group_vars/k8s-cluster/k8s-cluster.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/inventory/sample/group_vars/k8s-cluster/k8s-cluster.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/inventory/sample/group_vars/k8s-cluster/k8s-net-calico.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/inventory/sample/group_vars/k8s-cluster/k8s-net-calico.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/remove-node.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/remove-node.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/bootstrap-os/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/bootstrap-os/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/bootstrap-os/files/bootstrap.sh" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/bootstrap-os/files/bootstrap.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/bootstrap-os/tasks/bootstrap-centos.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/bootstrap-os/tasks/bootstrap-centos.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/bootstrap-os/tasks/bootstrap-debian.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/bootstrap-os/tasks/bootstrap-debian.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/bootstrap-os/tasks/bootstrap-fedora.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/bootstrap-os/tasks/bootstrap-fedora.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/containerd-common/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/containerd-common/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/containerd-common/vars/debian.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/containerd-common/vars/debian.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/containerd-common/vars/fedora.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/containerd-common/vars/fedora.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/containerd-common/vars/redhat.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/containerd-common/vars/redhat.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/containerd-common/vars/ubuntu-amd64.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/containerd-common/vars/ubuntu-amd64.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/containerd-common/vars/ubuntu-arm64.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/containerd-common/vars/ubuntu-arm64.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/containerd/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/containerd/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/containerd/templates/rh_containerd.repo.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/containerd/templates/rh_containerd.repo.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/cri-o/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/cri-o/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/cri-o/tasks/crio_repo.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/cri-o/tasks/crio_repo.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/cri-o/tasks/main.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/cri-o/tasks/main.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/cri-o/templates/crio.conf.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/cri-o/templates/crio.conf.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/cri-o/vars/centos-7.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/cri-o/vars/centos-7.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/cri-o/vars/centos-8.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/cri-o/vars/centos-8.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/cri-o/vars/debian.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/cri-o/vars/debian.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/cri-o/vars/fedora.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/cri-o/vars/fedora.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/cri-o/vars/ubuntu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/cri-o/vars/ubuntu.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/docker/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/docker/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/docker/templates/rh_docker.repo.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/docker/templates/rh_docker.repo.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/docker/vars/debian.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/docker/vars/debian.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/docker/vars/fedora.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/docker/vars/fedora.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/docker/vars/redhat.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/docker/vars/redhat.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/docker/vars/ubuntu-amd64.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/docker/vars/ubuntu-amd64.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/docker/vars/ubuntu-arm64.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/docker/vars/ubuntu-arm64.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/container-engine/kata-containers/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/container-engine/kata-containers/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/download/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/download/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/download/tasks/prep_kubeadm_images.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/download/tasks/prep_kubeadm_images.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/etcd/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/etcd/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/etcd/handlers/backup.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/etcd/handlers/backup.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/etcd/tasks/configure.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/etcd/tasks/configure.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/etcd/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/etcd/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/etcd/templates/etcd.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/etcd/templates/etcd.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/ansible/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/ansible/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/ansible/tasks/nodelocaldns.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/ansible/tasks/nodelocaldns.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/ansible/templates/coredns-config.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/ansible/templates/coredns-config.yml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/csi_driver/aws_ebs/templates/aws-ebs-csi-controllerservice-rbac.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/csi_driver/aws_ebs/templates/aws-ebs-csi-controllerservice-rbac.yml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/csi_driver/aws_ebs/templates/aws-ebs-csi-controllerservice.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/csi_driver/aws_ebs/templates/aws-ebs-csi-controllerservice.yml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/csi_driver/aws_ebs/templates/aws-ebs-csi-nodeservice.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/csi_driver/aws_ebs/templates/aws-ebs-csi-nodeservice.yml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/csi_driver/cinder/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/csi_driver/cinder/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/external_cloud_controller/openstack/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/external_cloud_controller/openstack/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/external_cloud_controller/openstack/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/external_cloud_controller/openstack/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/external_cloud_controller/openstack/templates/external-openstack-cloud-config.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/external_cloud_controller/openstack/templates/external-openstack-cloud-config.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/external_cloud_controller/openstack/templates/external-openstack-cloud-controller-manager-ds.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/external_cloud_controller/openstack/templates/external-openstack-cloud-controller-manager-ds.yml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/external_cloud_controller/vsphere/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/external_cloud_controller/vsphere/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/external_cloud_controller/vsphere/templates/external-vsphere-cloud-controller-manager-ds.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/external_cloud_controller/vsphere/templates/external-vsphere-cloud-controller-manager-ds.yml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/external_provisioner/local_volume_provisioner/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/external_provisioner/local_volume_provisioner/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/external_provisioner/local_volume_provisioner/templates/local-volume-provisioner-cm.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/external_provisioner/local_volume_provisioner/templates/local-volume-provisioner-cm.yml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/helm/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/helm/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/helm/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/helm/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/helm/templates/tiller-clusterrolebinding.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/helm/templates/tiller-clusterrolebinding.yml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/helm/templates/tiller-sa.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/helm/templates/tiller-sa.yml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/ingress_controller/ambassador/templates/deploy-ambassador.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/ingress_controller/ambassador/templates/deploy-ambassador.yml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/ingress_controller/ingress_nginx/templates/ds-ingress-nginx-controller.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/ingress_controller/ingress_nginx/templates/ds-ingress-nginx-controller.yml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/metallb/templates/metallb.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/metallb/templates/metallb.yml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/persistent_volumes/azuredisk-csi/templates/azure-csi-storage-class.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/persistent_volumes/azuredisk-csi/templates/azure-csi-storage-class.yml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/policy_controller/calico/templates/calico-kube-controllers.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/policy_controller/calico/templates/calico-kube-controllers.yml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/policy_controller/calico/templates/calico-kube-cr.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/policy_controller/calico/templates/calico-kube-cr.yml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/snapshots/cinder-csi/templates/cinder-csi-snapshot-class.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes-apps/snapshots/cinder-csi/templates/cinder-csi-snapshot-class.yml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes/client/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes/client/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes/kubeadm/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes/kubeadm/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes/kubeadm/handlers/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes/kubeadm/handlers/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes/kubeadm/tasks/kubeadm_etcd_node.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes/kubeadm/tasks/kubeadm_etcd_node.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes/kubeadm/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes/kubeadm/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes/master/defaults/main/etcd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes/master/defaults/main/etcd.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes/master/defaults/main/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes/master/defaults/main/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes/master/tasks/kubeadm-secondary-experimental.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes/master/tasks/kubeadm-secondary-legacy.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes/master/tasks/kubeadm-setup.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes/master/tasks/kubeadm-setup.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes/master/tasks/kubeadm-upgrade.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes/master/tasks/kubeadm-upgrade.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes/master/templates/apiserver-audit-webhook-config.yaml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes/master/templates/apiserver-audit-webhook-config.yaml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes/master/templates/kubeadm-config.v1beta2.yaml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes/master/templates/kubeadm-config.v1beta2.yaml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes/node/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes/node/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes/node/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes/node/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes/node/templates/kubelet-config.v1beta1.yaml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes/node/templates/kubelet-config.v1beta1.yaml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes/preinstall/tasks/0010-swapoff.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes/preinstall/tasks/0010-swapoff.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes/preinstall/tasks/0020-verify-settings.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes/preinstall/tasks/0020-verify-settings.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes/preinstall/tasks/0040-set_facts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes/preinstall/tasks/0040-set_facts.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes/preinstall/tasks/0050-create_directories.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes/preinstall/tasks/0050-create_directories.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubernetes/preinstall/tasks/0090-etchosts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubernetes/preinstall/tasks/0090-etchosts.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubespray-defaults/defaults/main.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubespray-defaults/defaults/main.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/kubespray-defaults/tasks/no_proxy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/kubespray-defaults/tasks/no_proxy.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/network_plugin/calico/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/network_plugin/calico/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/network_plugin/calico/rr/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/network_plugin/calico/rr/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/network_plugin/calico/tasks/check.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/network_plugin/calico/tasks/check.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/network_plugin/calico/tasks/install.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/network_plugin/calico/tasks/install.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/network_plugin/calico/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/network_plugin/calico/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/network_plugin/calico/tasks/pre.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/network_plugin/calico/tasks/pre.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/network_plugin/calico/tasks/upgrade.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/network_plugin/calico/templates/calico-cr.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/network_plugin/calico/templates/calico-cr.yml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/network_plugin/calico/templates/calico-node.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/network_plugin/calico/templates/calico-node.yml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/network_plugin/calico/templates/calico-typha.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/network_plugin/calico/templates/calico-typha.yml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/network_plugin/calico/templates/cni-calico.conflist.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/network_plugin/calico/templates/cni-calico.conflist.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/network_plugin/calico/templates/kdd-crds.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/network_plugin/calico/templates/kdd-crds.yml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/network_plugin/canal/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/network_plugin/canal/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/network_plugin/canal/templates/canal-node.yaml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/network_plugin/canal/templates/canal-node.yaml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/network_plugin/canal/templates/cni-canal.conflist.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/network_plugin/canal/templates/cni-canal.conflist.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/network_plugin/cilium/templates/cilium-cr.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/network_plugin/cilium/templates/cilium-cr.yml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/network_plugin/flannel/templates/cni-flannel.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/network_plugin/flannel/templates/cni-flannel.yml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/network_plugin/kube-router/templates/kube-router.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/network_plugin/kube-router/templates/kube-router.yml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/remove-node/remove-etcd-node/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/remove-node/remove-etcd-node/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/reset/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/reset/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/roles/win_nodes/kubernetes_patch/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/roles/win_nodes/kubernetes_patch/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/scale.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/scale.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/scripts/openstack-cleanup/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/scripts/openstack-cleanup/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/test-infra/image-builder/roles/kubevirt-images/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/test-infra/image-builder/roles/kubevirt-images/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/test-infra/image-builder/roles/kubevirt-images/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/test-infra/image-builder/roles/kubevirt-images/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/test-infra/vagrant-docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/test-infra/vagrant-docker/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/tests/files/packet_centos7-calico-ha.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/tests/files/packet_centos7-calico-ha.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/tests/files/packet_centos7-crio.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/tests/files/packet_centos7-crio.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/tests/files/packet_centos7-flannel-containerd-addons-ha.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/tests/files/packet_centos7-flannel-containerd-addons-ha.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/tests/files/packet_debian10-containerd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/tests/files/packet_debian10-containerd.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/tests/files/packet_opensuse-canal.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/tests/files/packet_opensuse-canal.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/tests/files/packet_oracle7-canal-ha.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/tests/files/packet_oracle7-canal-ha.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/tests/files/packet_ubuntu16-canal-kubeadm-ha.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/tests/files/packet_ubuntu16-canal-kubeadm-ha.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/tests/files/packet_ubuntu16-canal-sep.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/tests/files/packet_ubuntu16-canal-sep.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/tests/files/packet_ubuntu16-flannel-ha.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/tests/files/packet_ubuntu16-flannel-ha.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/tests/files/packet_ubuntu18-crio.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/tests/files/packet_ubuntu18-crio.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/tests/files/packet_ubuntu18-flannel-containerd-ha-once.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/tests/files/packet_ubuntu18-flannel-containerd-ha-once.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/tests/files/packet_ubuntu18-flannel-containerd-ha.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/tests/files/packet_ubuntu18-flannel-containerd-ha.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/tests/scripts/vagrant-validate.sh" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/tests/scripts/vagrant-validate.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/tests/scripts/vagrant_clean.sh" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/tests/scripts/vagrant_clean.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/tests/testcases/100_check-k8s-conformance.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/tests/testcases/100_check-k8s-conformance.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubespray/upgrade-cluster.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubespray/upgrade-cluster.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-sample-tweet" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-sample-tweet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-sample-tweet/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-sample-tweet/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +185,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/microservice-sample-tweet" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1SXmtyszbzc4jy8gr0EpNvP0YTe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -61,7 +228,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
