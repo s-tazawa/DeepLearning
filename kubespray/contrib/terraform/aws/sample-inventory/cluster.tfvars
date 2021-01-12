@@ -50,4 +50,4 @@ AWS_SECRET_ACCESS_KEY = ""
 AWS_SSH_KEY_NAME = ""
 
 #AWS Region
-AWS_DEFAULT_REGION = "eu-central-1"
+AWS_DEFAULT_REGION = "us-east-1"
