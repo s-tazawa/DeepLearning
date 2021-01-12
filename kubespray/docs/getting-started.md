@@ -99,7 +99,7 @@ Supported version is kubernetes-dashboard v2.0.x :
 - Deployed by default in "kube-system" namespace, can be overridden with `dashboard_namespace: kubernetes-dashboard` in inventory,
 - Only serves over https
 
-Access is described in [dashboard docs](https://github.com/kubernetes/dashboard/tree/master/docs/user/accessing-dashboard). With kubespray's default deployment in kube-system namespace, instead of kuberntes-dashboard :
+Access is described in [dashboard docs](https://github.com/kubernetes/dashboard/tree/master/docs/user/accessing-dashboard). With kubespray's default deployment in kube-system namespace, instead of kubernetes-dashboard :
 
 - Proxy URL is <http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#/login>
 - kubectl commands must be run with "-n kube-system"
@@ -126,6 +126,8 @@ host and can optionally be configured on your ansible host by setting
 - If `kubectl_localhost` enabled, `kubectl` will download onto `/usr/local/bin/` and setup with bash completion. A helper script `inventory/mycluster/artifacts/kubectl.sh` also created for setup with below `admin.conf`.
 - If `kubeconfig_localhost` enabled `admin.conf` will appear in the `inventory/mycluster/artifacts/` directory after deployment.
 - The location where these files are downloaded to can be configured via the `artifacts_dir` variable.
+
+NOTE: The controller host name in the admin.conf file might be a private IP. If so, change it to use the controller's public IP or the cluster's load balancer.
 
 You can see a list of nodes by running the following commands:
 
